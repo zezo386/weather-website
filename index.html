@@ -10,12 +10,19 @@
     <div class="container">
         <div class="left-container">
             <div class="temp-div">
-                <p>Current Tempreture</p>
-                <span class="temp" id="temp">26<sup class="temp-deg">&deg;</sup></span>
+                <p class="heading">Current Tempreture: </p>
+                <span class="temp" id="temp">26<sup class="temp-deg">&deg;</sup></span><span>  But feels like  <span id="apparent-temp" class="apparent-temp"></span></span>
                 <p class="last-check">last checked at <span id="last-check"></span></p>
+                <span>At </span><span class="day" id="day-night"></span>
+
             </div>
         </div>
-        <div class="right-container"></div>
+        <div class="right-container">
+            <div class="cloud-cover">
+                <p class="heading">Cloud Cover Total: </p>
+                <span class="cloud-cover" id="cloud-cover"></span><span class="percentage">%</span><span class="cloud-cover-text"> of the sky Covered with Clouds</span>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
