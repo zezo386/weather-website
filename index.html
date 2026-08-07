@@ -6,21 +6,30 @@
     <title>Your Weather</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body> 
     <div class="container">
+    <div class="logo">
+    <h1>Your Weather Website</h1>
+    <p><br>Discover your Place's Temp. <br>how it feels like and <br> How much cloudy is it from This Website For free for you! <br> (Just Approve the Project &#128521; &#128521;)</p>
+    </div>
         <div class="left-container">
             <div class="temp-div">
                 <p class="heading">Current Tempreture: </p>
                 <span class="temp" id="temp">26<sup class="temp-deg">&deg;</sup></span><span>  But feels like  <span id="apparent-temp" class="apparent-temp"></span></span>
+                <p><span>with </span><span id="humidity" class="humidity"></span><span>% humidity</span></p>
                 <p class="last-check">last checked at <span id="last-check"></span></p>
                 <span>At </span><span class="day" id="day-night"></span>
 
             </div>
         </div>
         <div class="right-container">
-            <div class="cloud-cover">
+            <div>
                 <p class="heading">Cloud Cover Total: </p>
                 <span class="cloud-cover" id="cloud-cover"></span><span class="percentage">%</span><span class="cloud-cover-text"> of the sky Covered with Clouds</span>
+            </div>
+            <div>
+                <p class="heading">Rain: </p>
+                <span class="rain" id="rain"></span> <span>mm</span>
             </div>
         </div>
     </div>
