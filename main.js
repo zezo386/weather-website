@@ -1,11 +1,11 @@
 async function get_IP(){
     try {
-        let response = await fetch("https://ipinfo.io/json")
+        let response = await fetch("https://ipapi.co/json")
         if (!response.ok){
             throw new Error(`HTTP Error, status code: ${response.status}`);
         }
         let data = await response.json();
-        let pos = data["loc"].split(",");
+        let pos = [data.latitude, data.longitude];
         
         return pos
         
