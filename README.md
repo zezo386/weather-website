@@ -12,7 +12,7 @@ the ipinfo api that gives me the longtitude and the latitude of the device from 
 
 from this link
 
-http://ipinfo.io/json
+http://ipapi.co/json
 
 i used these coordinates for the other api from open meteo to get data about the weather in the area
 
